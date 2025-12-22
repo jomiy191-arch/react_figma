@@ -1,0 +1,115 @@
+
+.about {
+    padding: 80px 20px;
+    background-color: #DCEAF5;
+    font-family: 'Arial', sans-serif;
+}
+
+.about__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about__item {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about__title {
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+.about__text {
+    font-size: 1.50rem;
+    color: #475569;
+    margin-bottom: 25px;
+}
+
+.about__item span {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.about__item button {
+    padding: 12px 25px;
+    background-color: #f59e0b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.about__item button:hover {
+    background-color: #d97706;
+}
+
+.about__item a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    align-self: center;
+    transition: color 0.3s ease;
+}
+
+.about__item a:hover {
+    color: #4914c5;
+}
+
+.about__item > img {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.about__list li:last-child img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+/* Logo link at the bottom */
+.about__item a[href*="Companies"] {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #64748b;
+}
+
+.about__item a[href*="Companies"]:hover {
+    color: #1e293b;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .about__list {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about__item span {
+        justify-content: center;
+    }
+
+    .about__list li:last-child img {
+        margin-bottom: 20px;
+    }
+}
