@@ -1,13 +1,8 @@
 
 .about {
-    padding: 80px 20px;
+    padding: 50px 20px;
     background-color: #DCEAF5;
     font-family: 'Arial', sans-serif;
-}
-
-.about__container {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .about__list {
