@@ -81,7 +81,6 @@
     border-radius: 12px;
 }
 
-/* Logo link at the bottom */
 .about__item a[href*="Companies"] {
     display: inline-block;
     margin-bottom: 20px;
@@ -93,7 +92,6 @@
     color: #1e293b;
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
     .about__list {
         flex-direction: column-reverse;
