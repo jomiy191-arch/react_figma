@@ -129,7 +129,6 @@
   transform: scale(1.05);
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 1024px) {
   .blog__item {
     flex-direction: column;
