@@ -31,7 +31,7 @@
 
 .blog__item:hover {
   transform: translateY(-10px);
-  box-shadow: 0 25px 60px rgba(201, 96, 96, 0.12);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.12);
 }
 
 .blog__text-container {
@@ -52,7 +52,7 @@
   height: 55px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #f97316;
+  border: 2px solid #dbbba5;
   transition: transform 0.3s ease;
 }
 
