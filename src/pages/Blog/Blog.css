@@ -52,7 +52,7 @@
   height: 55px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #dbbba5;
+  border: 2px solid #f97316;
   transition: transform 0.3s ease;
 }
 
